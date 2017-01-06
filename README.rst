@@ -9,6 +9,9 @@ Awesome-JIT
 Libraries
 ========================================
 
+Help you implement JIT
+------------------------------
+
 * `AsmJit <https://github.com/kobalicek/asmjit>`_ -  Complete x86/x64 JIT and Remote Assembler for C++
 * `DynASM <http://luajit.org/dynasm.html>`_
 * `LibJIT <https://www.gnu.org/software/libjit/>`_
@@ -19,8 +22,14 @@ Libraries
 * `sljit <http://sljit.sourceforge.net/>`_ - a stack-less platform independent JIT compiler
 
 
+Comes with JIT support
+------------------------------
 
-Programming Languages
+* Python
+    - `Numba <http://numba.pydata.org/>`_ - NumPy aware dynamic Python compiler using LLVM
+
+
+Programming Languages Implementation
 ========================================
 
 * `Julia <https://github.com/JuliaLang/julia>`_
@@ -52,12 +61,16 @@ Programming Languages
     - `HotSpot <http://openjdk.java.net/groups/hotspot/>`_
     - `Dalvik <https://source.android.com/devices/tech/dalvik/index.html>`_
     - `Avian <https://readytalk.github.io/avian/>`_ - A lightweight alternative to Java
+    - `Jikes RVM <http://www.jikesrvm.org/>`_ - Research Virtual Machine
 * Erlang
     - BEAMJIT
 * WebAssembly
     - `wasm-jit <https://github.com/indutny/wasm-jit>`_
 * LLVM IR
     - `Sulong <https://github.com/graalvm/sulong>`_ - an interpreter for LLVM IR written in Java using the Truffle language implementation framework and Graal as a just-in-time (JIT) compiler
+* SOM (Simple Object Machine)
+    - `RPySOM <https://github.com/SOM-st/RPySOM>`_ - The Simple Object Machine Smalltalk implemented in RPython
+    - `RTruffleSOM <https://github.com/SOM-st/RTruffleSOM>`_ - combining ideas from Truffle and TruffleSOM with RPython's metatracing
 
 
 
@@ -73,6 +86,8 @@ Tools
 ========================================
 
 * `jitpy <https://github.com/fijal/jitpy>`_ - Library to embed PyPy into CPython
+* `RPython Toolchain <https://rpython.readthedocs.io/en/latest/index.html>`_ - framework for producing implementations of dynamic languages
+* `Truffle <https://github.com/graalvm/truffle>`_ - Language Implementation Framework
 
 
 
