@@ -51,6 +51,7 @@ Programming Languages
 * Java
     - `HotSpot <http://openjdk.java.net/groups/hotspot/>`_
     - `Dalvik <https://source.android.com/devices/tech/dalvik/index.html>`_
+    - `Avian <https://readytalk.github.io/avian/>`_ - A lightweight alternative to Java
 * Erlang
     - BEAMJIT
 * WebAssembly
