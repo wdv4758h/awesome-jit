@@ -74,6 +74,8 @@ Programming Languages Implementation
     - `RTruffleSOM <https://github.com/SOM-st/RTruffleSOM>`_ - combining ideas from Truffle and TruffleSOM with RPython's metatracing
 * `.NET <https://github.com/dotnet/coreclr>`_
 * `ZetaVM <https://github.com/zetavm/zetavm>`_
+* Ethereum
+    - `EVM JIT <https://github.com/ethereum/evmjit>`_
 
 
 
@@ -105,9 +107,11 @@ Papers
 
 
 
-Applications
+JIT in Database
 ========================================
 
+* `PostgreSQL <https://github.com/postgres/postgres>`_
+    - ``src/backend/jit``
 * SQlite
     - `SQPyte <https://bitbucket.org/softdevteam/sqpyte>`_
 
