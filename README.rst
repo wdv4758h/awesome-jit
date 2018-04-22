@@ -40,6 +40,7 @@ Programming Languages Implementation
 * Lua
     - `LuaJIT <https://github.com/LuaJIT/LuaJIT>`_
     - `Ravi <https://github.com/dibyendumajumdar/ravi>`_ - a derivative/dialect of Lua 5.3 with limited optional static typing and an LLVM powered JIT compiler
+    - `RaptorJIT <https://github.com/raptorjit/raptorjit>`_ - a fork of LuaJIT focused on predictably high performance.
 * JavaScript
     - `V8 <https://github.com/v8/v8>`_
     - `SpiderMonkey <https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Getting_SpiderMonkey_source_code>`_
@@ -71,6 +72,8 @@ Programming Languages Implementation
 * SOM (Simple Object Machine)
     - `RPySOM <https://github.com/SOM-st/RPySOM>`_ - The Simple Object Machine Smalltalk implemented in RPython
     - `RTruffleSOM <https://github.com/SOM-st/RTruffleSOM>`_ - combining ideas from Truffle and TruffleSOM with RPython's metatracing
+* `.NET <https://github.com/dotnet/coreclr>`_
+* `ZetaVM <https://github.com/zetavm/zetavm>`_
 
 
 
@@ -88,6 +91,7 @@ Tools
 * `jitpy <https://github.com/fijal/jitpy>`_ - Library to embed PyPy into CPython
 * `RPython Toolchain <https://rpython.readthedocs.io/en/latest/index.html>`_ - framework for producing implementations of dynamic languages
 * `Truffle <https://github.com/graalvm/truffle>`_ - Language Implementation Framework
+* `JITWatch <https://github.com/AdoptOpenJDK/jitwatch>`_ - Log analyser and visualiser for the HotSpot JIT compiler
 
 
 
