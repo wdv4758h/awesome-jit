@@ -20,6 +20,10 @@ Help you implement JIT
 * `GNU lightning <https://www.gnu.org/software/lightning/>`_ - a library that generates assembly language code at run-time
 * `Xbyak <https://github.com/herumi/xbyak>`_ - JIT assembler for x86(IA32), x64(AMD64, x86-64) by C++
 * `sljit <http://sljit.sourceforge.net/>`_ - a stack-less platform independent JIT compiler
+* `QBE <https://c9x.me/compile/>`_ - written in C, similar to LLVM but much smaller
+* `MIR <https://github.com/vnmakarov/mir>`_ - a new JIT backend in C being developed by a Redhat GCC maintainer
+* `NanoJIT <https://github.com/dibyendumajumdar/nanojit>`_ - a small JIT engine originally written by Adobe for Flash
+* `nj <https://github.com/dibyendumajumdar/nj>`_ - a JIT engine written in C++ based on `Eclipse OMR <https://github.com/eclipse/omr>`_. Eclipse OMR is used in IBM's Java implementation, but the JIT engine is generic
 
 
 Comes with JIT support
