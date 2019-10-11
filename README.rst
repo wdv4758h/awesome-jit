@@ -67,6 +67,7 @@ Programming Languages Implementation
     - `Dalvik <https://source.android.com/devices/tech/dalvik/index.html>`_
     - `Avian <https://readytalk.github.io/avian/>`_ - A lightweight alternative to Java
     - `Jikes RVM <http://www.jikesrvm.org/>`_ - Research Virtual Machine
+    - `Maxine VM <https://github.com/beehive-lab/Maxine-VM>`_ - Metacircular Research Virtual Machine
 * Erlang
     - BEAMJIT
 * WebAssembly
