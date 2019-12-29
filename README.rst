@@ -43,6 +43,7 @@ Programming Languages Implementation
     - `Pyjion <https://github.com/Microsoft/Pyjion>`_ - JIT for Python based upon CoreCLR
 * Lua
     - `LuaJIT <https://github.com/LuaJIT/LuaJIT>`_
+    - `MoonJIT <https://github.com/moonjit/moonjit>`_ - Just-In-Time Compiler for the Lua Programming language. Fork of LuaJIT to continue development
     - `Ravi <https://github.com/dibyendumajumdar/ravi>`_ - a derivative/dialect of Lua 5.3 with limited optional static typing and an LLVM powered JIT compiler
     - `RaptorJIT <https://github.com/raptorjit/raptorjit>`_ - a fork of LuaJIT focused on predictably high performance.
 * JavaScript
