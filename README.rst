@@ -16,6 +16,7 @@ Help you implement JIT
 * `DynASM <http://luajit.org/dynasm.html>`_
 * `LibJIT <https://www.gnu.org/software/libjit/>`_
 * `LLVM - MCJIT <http://llvm.org/docs/MCJITDesignAndImplementation.html>`_
+* `LLVM - ORC <https://www.llvm.org/docs/ORCv2.html>`_ - Successor to MCJIT
 * `GCC - libgccjit <https://gcc.gnu.org/onlinedocs/jit/>`_
 * `GNU lightning <https://www.gnu.org/software/lightning/>`_ - a library that generates assembly language code at run-time
 * `Xbyak <https://github.com/herumi/xbyak>`_ - JIT assembler for x86(IA32), x64(AMD64, x86-64) by C++
