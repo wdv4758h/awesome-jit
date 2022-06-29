@@ -55,6 +55,10 @@ Programming Languages Implementation
     - `HippyVM <https://github.com/hippyvm/hippyvm>`_
 * Ruby
     - `Topaz <https://github.com/topazproject/topaz>`_
+    - `MJIT <https://blog.heroku.com/ruby-mjit>`_
+    - `YJIT <https://pointersgonewild.com/2021/06/02/yjit-building-a-new-jit-compiler-inside-cruby/>`_
+    - `JRuby <https://www.jruby.org/>`_
+    - `TruffleRuby <https://www.graalvm.org/ruby/>`_
 * Lisp
     - `CLISP <http://www.clisp.org/>`_
     - `Pixie <https://github.com/pixie-lang/pixie>`_
