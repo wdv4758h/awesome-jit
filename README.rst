@@ -49,8 +49,12 @@ Programming Languages Implementation
     - `Ravi <https://github.com/dibyendumajumdar/ravi>`_ - a derivative/dialect of Lua 5.3 with limited optional static typing and an LLVM powered JIT compiler
     - `RaptorJIT <https://github.com/raptorjit/raptorjit>`_ - a fork of LuaJIT focused on predictably high performance.
 * JavaScript
-    - `V8 <https://github.com/v8/v8>`_
-    - `SpiderMonkey <https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Getting_SpiderMonkey_source_code>`_
+    - `V8 <https://github.com/v8/v8>`_ - High-performance Javascript and Webassembly engine developed by google around the "Sea of Nodes" concept
+    - `SpiderMonkey <https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Getting_SpiderMonkey_source_code>`_ - Firefox's Javascript and Webassembly engine using the WarpMokey JIT engine 
+    - `JavaScriptCore <https://github.com/WebKit/WebKit/tree/main/Source/JavaScriptCore>`_ - High-performance Javascript and Webassembly engine developed by Apple for WebKit. Uses the B3 backend.
+    - `Chakra <https://github.com/chakra-core/ChakraCore>`_ - Microsoft's JavaScript engine. Used to be the JS engine of Explorer and the early MSEdge.
+    - `IV <https://github.com/constellation/iv>`_ - Javascript engine written in C++ that supports ECMAScript 262 5.1.
+    - `BESEN <https://github.com/BeRo1985/besen>`_ - Javadcript engine written in object Pascal.
 * PHP
     - `HHVM <http://hhvm.com/>`_
     - `HippyVM <https://github.com/hippyvm/hippyvm>`_
@@ -79,6 +83,9 @@ Programming Languages Implementation
     - BEAMJIT
 * WebAssembly
     - `wasm-jit <https://github.com/indutny/wasm-jit>`_
+    - `wasmtime <https://github.com/bytecodealliance/wasmtime>`_
+    - `wasmer <https://github.com/wasmerio/wasmer>`_
+    - `WAVM <https://github.com/WAVM/WAVM>`_
 * LLVM IR
     - `Sulong <https://github.com/graalvm/sulong>`_ - an interpreter for LLVM IR written in Java using the Truffle language implementation framework and Graal as a just-in-time (JIT) compiler
 * SOM (Simple Object Machine)
@@ -96,6 +103,8 @@ Bindings
 
 * `llvmlite <https://github.com/numba/llvmlite>`_ - A lightweight LLVM python binding for writing JIT compilers
 * `pygccjit <https://github.com/davidmalcolm/pygccjit>`_ - Python bindings for libgccjit
+* `QBE (Rust) <https://crates.io/crates/qbe>`_ - Rust implementation of QBE's IR
+* `gccjit <https://crates.io/crates/gccjit>`_ - Rust bindings to libgccjit
 
 
 
