@@ -21,7 +21,6 @@ Help you implement JIT
 * `GNU lightning <https://www.gnu.org/software/lightning/>`_ - a library that generates assembly language code at run-time
 * `Xbyak <https://github.com/herumi/xbyak>`_ - JIT assembler for x86(IA32), x64(AMD64, x86-64) by C++
 * `sljit <http://sljit.sourceforge.net/>`_ - a stack-less platform independent JIT compiler
-* `QBE <https://c9x.me/compile/>`_ - written in C, similar to LLVM but much smaller
 * `MIR <https://github.com/vnmakarov/mir>`_ - a new JIT backend in C being developed by a Redhat GCC maintainer
 * `NanoJIT <https://github.com/dibyendumajumdar/nanojit>`_ - a small JIT engine originally written by Adobe for Flash
 * `nj <https://github.com/dibyendumajumdar/nj>`_ - a JIT engine written in C++ based on `Eclipse OMR <https://github.com/eclipse/omr>`_. Eclipse OMR is used in IBM's Java implementation, but the JIT engine is generic
@@ -50,7 +49,7 @@ Programming Languages Implementation
     - `RaptorJIT <https://github.com/raptorjit/raptorjit>`_ - a fork of LuaJIT focused on predictably high performance.
 * JavaScript
     - `V8 <https://github.com/v8/v8>`_ - High-performance Javascript and Webassembly engine developed by google around the "Sea of Nodes" concept
-    - `SpiderMonkey <https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Getting_SpiderMonkey_source_code>`_ - Firefox's Javascript and Webassembly engine using the WarpMokey JIT engine 
+    - `SpiderMonkey <https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Getting_SpiderMonkey_source_code>`_ - Firefox's Javascript and Webassembly engine using the WarpMokey JIT engine
     - `JavaScriptCore <https://github.com/WebKit/WebKit/tree/main/Source/JavaScriptCore>`_ - High-performance Javascript and Webassembly engine developed by Apple for WebKit. Uses the B3 backend.
     - `Chakra <https://github.com/chakra-core/ChakraCore>`_ - Microsoft's JavaScript engine. Used to be the JS engine of Explorer and the early MSEdge.
     - `IV <https://github.com/constellation/iv>`_ - Javascript engine written in C++ that supports ECMAScript 262 5.1.
@@ -103,7 +102,6 @@ Bindings
 
 * `llvmlite <https://github.com/numba/llvmlite>`_ - A lightweight LLVM python binding for writing JIT compilers
 * `pygccjit <https://github.com/davidmalcolm/pygccjit>`_ - Python bindings for libgccjit
-* `QBE (Rust) <https://crates.io/crates/qbe>`_ - Rust implementation of QBE's IR
 * `gccjit <https://crates.io/crates/gccjit>`_ - Rust bindings to libgccjit
 
 
@@ -146,3 +144,11 @@ Twitter
 
 * `@LuaJIT <https://twitter.com/luajit>`_
 * `@pypyproject <https://twitter.com/pypyproject>`_
+
+
+Other Projects (Not Designed for JIT)
+-------------------------------------
+
+* `QBE <https://c9x.me/compile/>`_ - written in C, similar to LLVM but much smaller
+    - `QBE (Rust) <https://crates.io/crates/qbe>`_ - Rust implementation of QBE's IR
+    - `discussion <https://lists.sr.ht/~mpu/qbe/\<CAFbATBGDOmpxDoVD9eAudiqAMAFskD-sMeyOn5jz63iNeWYK0g%40mail.gmail.com\>>`_
