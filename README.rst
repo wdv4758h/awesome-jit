@@ -39,7 +39,7 @@ Programming Languages Implementation
 
 * `Julia <https://github.com/JuliaLang/julia>`_
 * Python
-    - `PyPy <https://bitbucket.org/pypy/pypy>`_
+    - `PyPy <https://github.com/pypy/pypy>`_
     - `Pyston <https://github.com/dropbox/pyston>`_ - performance-oriented Python implementation built using LLVM and modern JIT techniques
     - `Pyjion <https://github.com/Microsoft/Pyjion>`_ - JIT for Python based upon CoreCLR
 * Lua
