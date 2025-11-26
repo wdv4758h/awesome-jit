@@ -25,7 +25,7 @@ Help you implement JIT
 * `NanoJIT <https://github.com/dibyendumajumdar/nanojit>`_ - a small JIT engine originally written by Adobe for Flash
 * `nj <https://github.com/dibyendumajumdar/nj>`_ - a JIT engine written in C++ based on `Eclipse OMR <https://github.com/eclipse/omr>`_. Eclipse OMR is used in IBM's Java implementation, but the JIT engine is generic
 * `Cranelift <https://github.com/bytecodealliance/wasmtime/tree/main/cranelift>`_ - A Rust powered JIT compiler for x86-64, aarch64 and s390x created by the Wasmtime team for their WASI interpreter.
-
+* `c_aot_compile <https://github.com/jagprog5/c_aot_compile>`_
 
 Comes with JIT support
 ------------------------------
