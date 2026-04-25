@@ -12,7 +12,7 @@ Libraries
 Help you implement JIT
 ------------------------------
 
-* `AsmJit <https://github.com/kobalicek/asmjit>`_ -  Complete x86/x64 JIT and Remote Assembler for C++
+* `AsmJit <https://github.com/asmjit/asmjit>`_ -  Complete x86/x64 JIT and Remote Assembler for C++, now with aarch32 and aarch64 support as well
 * `DynASM <http://luajit.org/dynasm.html>`_
 * `LibJIT <https://www.gnu.org/software/libjit/>`_
 * `LLVM - MCJIT <http://llvm.org/docs/MCJITDesignAndImplementation.html>`_
