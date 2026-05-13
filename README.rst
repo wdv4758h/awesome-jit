@@ -20,6 +20,8 @@ Help you implement JIT
 * `GCC - libgccjit <https://gcc.gnu.org/onlinedocs/jit/>`_
 * `GNU lightning <https://www.gnu.org/software/lightning/>`_ - a library that generates assembly language code at run-time
 * `Xbyak <https://github.com/herumi/xbyak>`_ - JIT assembler for x86(IA32), x64(AMD64, x86-64) by C++
+* `Xbyak_riscv <https://github.com/herumi/xbyak_riscv>`_ - JIT assembler for RISC-V by C++
+* `Xbyak_aarch64 <https://github.com/fujitsu/xbyak_aarch64>`_ - JIT assembler for AArch64 by C++
 * `sljit <http://sljit.sourceforge.net/>`_ - a stack-less platform independent JIT compiler
 * `MIR <https://github.com/vnmakarov/mir>`_ - a new JIT backend in C being developed by a Redhat GCC maintainer
 * `NanoJIT <https://github.com/dibyendumajumdar/nanojit>`_ - a small JIT engine originally written by Adobe for Flash
